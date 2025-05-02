@@ -1,0 +1,58 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    background-color: rgb(208, 153, 114);
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    padding: 10px;
+    margin: 15px; 
+}
+.links {
+    background-color: rgb(136, 92, 74);
+    color: rgb(227, 175, 146);
+    text-decoration: underline;
+    margin: o 10px;
+    overflow: auto;
+    font-size: large;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    margin: 0px 5px 15px 0px;
+    text-indent: 40px;
+}
+.links :hover {
+    color: red; 
+}
+#section {
+    background-color: rgb(212, 148, 148);
+    float: left; 
+    width: 70%;
+    text-align: center;
+}
+img {
+    border: solid 10px rgb(255, 240, 217);
+}
+.vertical-nav {
+    float: left;
+    background-color: rgb(116, 93, 83);
+    width: 30%;
+    text-align: left;
+    color: white; 
+    
+    
+}
+
+.columns {
+    flex-direction: column;
+}
+
+h2 {
+    padding: 10px;
+}
